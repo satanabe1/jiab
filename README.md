@@ -8,20 +8,20 @@
 <script>google.load('jquery','1')</script>
 <script>(function(j){j(function(){$=jQuery=j})})($)</script>
 
-<script src="ji2ab.js"></script>
+<script src="jiab.js"></script>
 ```
 
 ブログでjsdo.itブログパーツを貼り付けたいところに，以下を記述
 
 ```
-<div class="ji2ab" data-url="ブログパーツのurl" >
+<div class="jiab" data-url="ブログパーツのurl" >
 </div>
 ```
 
 例:
 
 ```
-<div class="ji2ab" data-url="http://jsdo.it/blogparts/xYvE" >
+<div class="jiab" data-url="http://jsdo.it/blogparts/xYvE/js" >
 </div>
 ```
 
