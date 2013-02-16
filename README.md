@@ -8,47 +8,22 @@
 <script>google.load('jquery','1')</script>
 <script>(function(j){j(function(){$=jQuery=j})})($)</script>
 
-<script src="g2ab.js"></script>
+<script src="ji2ab.js"></script>
 ```
 
-ブログでGistのソースコードを貼り付けたいところに，以下を記述
+ブログでjsdo.itブログパーツを貼り付けたいところに，以下を記述
 
 ```
-<div class="g2ab" data-url="Gistのurl" >
+<div class="ji2ab" data-url="ブログパーツのurl" >
 </div>
 ```
 
 例:
 
 ```
-<div class="g2ab" data-url="https://gist.github.com/satanabe1/4717276" >
+<div class="ji2ab" data-url="http://jsdo.it/blogparts/xYvE" >
 </div>
 ```
-
-### オプション
-色とかローディング画像の形とか、大きさとか
-```
-<div class="g2ab"
-data-url="Gistのurl"
-data-type="ローディング画像の番号 1,2,3が存在する"
-data-size="ローディング画像の大きさ"
-data-color="ローディング画像の色">
-</div>
-```
-
-例:
-
-```
-<div class="g2ab"
-data-url="https://gist.github.com/satanabe1/4717276"
-data-type="1"
-data-size="240"
-data-color="5,30,130">
-</div>
-```
-
-### スクリーンショット
-![Demo](https://raw.github.com/satanabe1/G2AB/master/pic/type.png)
 
 ライセンス
 --
